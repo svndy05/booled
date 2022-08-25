@@ -4,27 +4,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://fonts.cdnfonts.com/css/gotham-rounded" rel="stylesheet">
+    <!-- <link href="http://fonts.cdnfonts.com/css/gotham-rounded" rel="stylesheet"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <title>Booled</title>
+    <link rel="preload" href="./assets/gotham-rounded/GothamRounded-Medium.otf" as="font" corssorigin="">
+    <script src="./assets/js/tailwind.config.js"></script>
 </head>
 
 <body>
+    
     <div
-        class=" overflow-hidden px-[20px] w-[100%] bg-[#CCE9FF] bg-[url('./assets/img/background.svg')] pt-[30px] h-[860px] sm:h-[800px] md:h-[730px] lg:h-[680px] relative">
+        class=" lg:px-[10%] xl:px-[20%] overflow-hidden px-[20px] w-[100%] bg-[#CCE9FF] bg-[url('./assets/img/background.svg')] pt-[30px] h-[860px] sm:h-[800px] md:h-[730px] lg:h-[680px] relative">
         <div class="flex w-full bg-white rounded-3xl justify-between items-center h-[50px] drop-shadow-lg px-[25px] ">
             <img src="./assets/img/Image 2.svg">
             <button class="bg-[#383097] text-white rounded-3xl py-[5px] px-[20px]"> Devenez Booleeder</button>
         </div>
         <div
-            class="w-full bg-white rounded-3xl mt-[30px] h-[590px] md:h-[500px] lg:h-[480px] pt-[30px] space-y-[30px] lg:flex lg:flex-col lg:justify-center">
+            class=" lg:w-[90%] lg:mx-[5%] bg-white rounded-3xl mt-[30px] h-[590px] md:h-[500px] lg:h-[480px] pt-[30px] space-y-[30px] lg:flex lg:flex-col lg:justify-center">
             <div class="flex justify-center gap-x-[2%] md:justify-start md:pl-[5%] items-center lg:w-[55%]">
                 <div
                     class="bg-[#CCE9FF] rounded-3xl lg:rounded-[50px] w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] flex justify-center items-center">
                     <img class="lg:scale-[1.3]" src="./assets/img/Groupe 180.svg">
                 </div>
-                <p class="w-[70%] xl:w-[80%] text-xl font-bold text-[#333D45] lg:text-2xl xl:text-[28px]">Vous ne
+                <p class="w-[70%] xl:w-[80%] text-xl font-bold text-[#333D45] lg:text-2xl xl:text-[28px] ">Vous ne
                     connaissez pas la date de votre prochain
                     entretien ?</p>
             </div>
@@ -43,7 +46,7 @@
                     Booleeder</button>
             </div>
         </div>
-        <img class="absolute bottom-[80px] right-[-350px] scale-[1.5]" src="./assets/img/Groupe 179.svg">
+        <!-- <img class="absolute bottom-[80px] right-[-350px] scale-[1.5]" src="./assets/img/Groupe 179.svg"> -->
         <img class="absolute bottom-[-10px] right-[50px] lg:scale-[1.4] lg:bottom-[80px] lg:right-[120px]"
             src="./assets/img/Groupe 4966.svg">
             <div class="absolute bottom-[-5px] right-[180px] lg:scale-[1.4] lg:bottom-[75px] lg:right-[305px]">
@@ -52,7 +55,7 @@
         </div>
         </div>
     <!-- COMPONENT ESSAIE GRATUIT -->
-    <div class="bg-[#333D45] flex flex-col items-center pt-[30px] gap-y-[30px] text-white font-bold px-[20px] relative">
+    <div class=" xl:px-[10%] 2xl:px-[20%] bg-[#333D45] flex flex-col items-center pt-[30px] gap-y-[30px] text-white font-bold px-[20px] relative">
         <div class="bg-white w-[100px] h-[100px] rounded-[50px] flex justify-center items-center lg:scale-[1.2]"><img
                 src="./assets/img/Groupe 5831.svg" class="lg:scale-[1.2]"></div>
         <p class="text-[22px] md:text-[26px] xl:text-3xl md text-center">TOUT BOOLED GRATUIT PENDANT 30 JOURS</p>
@@ -65,7 +68,7 @@
             GRATUITEMENT PENDANT 30 JOURS</button>
     </div>
     <!-- COMPONENT BESOIN -->
-    <div class="px-[20px] py-[30px] bg-[#CCE9FF] ">
+    <div class="xl:px-[10%] 2xl:px-[20%] px-[20px] py-[30px] bg-[#CCE9FF] ">
         <p class="text-[28px] font-bold text-left pb-[40px] text-[#333D45] text-center">TOUT CE DONT VOUS AVEC BESOIN
             POUR VOUS
             FACILITER LA VIE
@@ -102,7 +105,7 @@
                         src="./assets/img/Groupe 589.svg"></div>
                 <div class="text-center lg:text-start">
                     <p class="text-xl font-bold text-[#383097] lg:pt-[10px] lg:text-start relative left-[-15px]">Alertes</p>
-                    <ul class="list-disc font-[350] text-[#333D45]  lg:w-[300px] ">
+                    <ul class="list-disc font-[350] text-[#333D45]  lg:w-[250px] ">
                         <li>Controle technique 3 rappels</li>
                         <li>Controle pollution 3 rappels</li>
                         <li>Notification d'assurance 3 rappels</li>
@@ -116,7 +119,7 @@
                         src="./assets/img/Groupe 4424.svg"></div>
                 <div class="text-center lg:text-start">
                     <p class="text-xl font-bold text-[#383097] lg:pt-[10px] relative left-[-15px] ">Fonctionnalites</p>
-                    <ul class="list-disc font-[350] text-[#333D45]  lg:w-[300px] ">
+                    <ul class="list-disc font-[350] text-[#333D45]  lg:w-[250px] ">
                         <li>Notifications par SMS</li>
                         <li>Notifications par Email</li>
                     </ul>
@@ -124,9 +127,8 @@
             </div>
         </div>
     </div>
-    </div>
     <!-- COMPONENT FONCTIONNEMENT -->
-    <div class="px-[20px] pb-[50px] pt-[30px]">
+    <div class="xl:px-[10%] 2xl:px-[20%] px-[20px] pb-[50px] pt-[30px]">
         <p class="text-[28px] text-[#333D45] font-bold text-center">UN FONCTIONNEMENT <span class="hidden">SIMPLE ET
                 RAPIDE</span></p>
         <div
@@ -167,7 +169,7 @@
         </div>
     </div>
     <!-- COMPONENT PARTAGE -->
-    <div class="px-[20px] pt-[30px] bg-[#383097]">
+    <div class="xl:px-[10%] 2xl:px-[20%] px-[20px] pt-[30px] bg-[#383097]">
         <div class="text-white font-bold pb-[30px] mx-auto sm:w-[60%] lg:w-[70%]">
             <p class="text-[28px] text-start">PARTAGEONS LA <span class="hidden md:inline">MEME ROUTE.</span> </p>
             <p class="text-xl">TROUVEZ L'ABONNEMENT ANNUEL <span class="hidden lg:inline">QUI VOUS CONVIENT...</span>
@@ -178,7 +180,7 @@
                 <div class="bg-white w-[100%] items-center flex flex-col rounded-t-3xl py-[20px] lg:h-[220px] ">
                     <p class="font-bold text-[25px] text-[#383097]">1 VOITURE</p>
                     <div><img src="./assets/img/Groupe 5769.svg"></div>
-                    <span class="font-bold">Partez sans payer</span>
+                    <span class="font-bold">&#xab; Partez sans payer &#xbb;</span>
                 </div>
                 <div class="bg-[#383097] h-[90px] shadow-lg text-white flex justify-center items-center rounded-b-3xl">
                     <span class="font-bold text-[25px]">1 MOIS OFFERT</span>
@@ -188,7 +190,7 @@
                 <div class="bg-white w-[100%] items-center flex flex-col rounded-t-3xl py-[20px] lg:h-[220px]">
                     <p class="font-bold text-[25px] text-[#FEAE6E]">1 VOITURE</p>
                     <div><img src="./assets/img/Groupe 5769.svg"></div>
-                    <span class="font-bold lg:text-center">En voiture c'est la ceinture qui assure</span>
+                    <span class="font-bold lg:text-center">&#xab; En voiture c'est la ceinture qui assure &#xbb;</span>
                 </div>
                 <div
                     class="bg-[#FEAE6E] h-[90px] shadow-lg text-white flex flex-col justify-center items-center rounded-b-3xl">
@@ -201,7 +203,7 @@
                 <div class="bg-white w-[100%] items-center flex flex-col rounded-t-3xl py-[20px] lg:h-[220px]">
                     <p class="font-bold text-[25px] text-[#FEAE6E]">2 VOITURES</p>
                     <div><img src="./assets/img/Groupe 5767.svg"></div>
-                    <span class="font-bold">Le moteur de la vie a deux</span>
+                    <span class="font-bold text-center">&#xab; Le moteur de la vie a deux &#xbb;</span>
                 </div>
                 <div
                     class="bg-[#FEAE6E] h-[90px] shadow-lg text-white flex flex-col justify-center items-center rounded-b-3xl">
@@ -214,7 +216,7 @@
                 <div class="bg-white w-[100%] items-center flex flex-col rounded-t-3xl py-[20px] lg:h-[220px]">
                     <p class="font-bold text-[25px] text-[#FEAE6E]">3 VOITURES</p>
                     <div><img src="./assets/img/Groupe 5833.svg"></div>
-                    <span class="font-bold">Roulez en toute securite</span>
+                    <span class="font-bold text-center">&#xab; Roulez en toute securite &#xbb;</span>
                 </div>
                 <div
                     class="bg-[#FEAE6E] h-[90px] shadow-lg text-white flex flex-col justify-center items-center rounded-b-3xl">
@@ -229,7 +231,7 @@
                 DECOUVRE</button>
         </div>
     </div>
-    <div class="px-[20px] pt-[30px]">
+    <div class="xl:px-[10%] 2xl:px-[20%] px-[20px] pt-[30px]">
         <div class="lg:flex lg:justify-center lg:gap-x-[200px]">
             <div class="flex flex-col items-center">
                 <div class="pb-[30px]"><img src="./assets/img/Groupe 5828.svg"></div>

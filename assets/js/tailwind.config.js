@@ -2,7 +2,7 @@ tailwind.config = {
   theme: {
     extend: {
      fontFamily:{
-      sans: ['Gotham-Rounded']
+      // sans: ['Gotham-Rounded']
      }
     },
    
